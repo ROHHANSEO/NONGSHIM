@@ -314,7 +314,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
-    top: -30px;
+    top: 20px;
     z-index: -1;
 }
 
@@ -328,24 +328,159 @@ body {
 }
 
 .for_article {
-    display: flex;
     text-align: center;
+    height: 80vh;
+    position: relative;
+    top: 20px;
+    background-color: rgba(212, 212, 212, 0.35);
+}
+
+.for_article > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    margin: 0 100px;
 }
 
 .products .img {
+    background-color: #fff;
     width: 180px;
     height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin: 60px 40px 0 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 30px 0;
+    width: 300px !important;
+    position: relative;
+    left: -55px;
+}
+
+.products > div > p {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#forth_section .page_button {
+    position: relative;
+    top: -120px;
+}
 
 
 /* fifth section */
 
 #fifth_section {
     position: absolute;
-    top: 700vh;
+    top: 650vh;
     width: 100%;
 }
+
+#fifth_section .ment {
+    font-size: 64px !important;
+    font-weight: 800;
+}
+
+/* .cont_ment.off {
+    display: none;
+} */
+
+.mep_view {
+    position: relative;
+    height: 420px;
+    margin-top: 110px;
+    margin-bottom: 90px;
+}
+
+.cont_ment {
+    position: absolute;
+    width: 500px;
+}
+
+.cont_ment h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.cont_ment p {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.mep_view .menu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+.mep_view .img {
+    position: absolute;
+    right: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mep {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mappin {
+    position: absolute;
+}
+
+.mappin-china {
+    top: 110px;
+    left: 700px;
+    display: none;
+}
+
+.china {
+    top: 150px;
+    left: 500px;
+    display: none;
+}
+
+.mappin-uni {
+    top: 150px;
+    right: 550px;
+    display: none;
+}
+
+.united-states {
+    top: 130px;
+    left: 540px;
+    display: none;
+}
+
+.mappin-canada {
+    top: 80px;
+    right: 600px;
+    display: none;
+}
+
+.canada {
+    top: 100px;
+    left: 500px;
+    display: none;
+}
+
+.mappin-japan {
+    
+}
+
 
 
 /* footer */
