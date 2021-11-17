@@ -16,6 +16,10 @@ ul { list-style: none; }
     display: none;
 }
 
+.sub1 {
+    display: block !important;
+}
+
 #main_haeder {
     display: flex;
     justify-content: space-around;
